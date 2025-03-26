@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|c:\\iliyan\\proggraming\\sql\\entitframwweork03.26\\entitframwweork03.26\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|solutionrelative:entitframwweork03.26\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|c:\\iliyan\\proggraming\\sql\\entitframwweork03.26\\entitframwweork03.26\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|solutionrelative:entitframwweork03.26\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|c:\\iliyan\\proggraming\\sql\\entitframwweork03.26\\entitframwweork03.26\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|solutionrelative:entitframwweork03.26\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|c:\\iliyan\\proggraming\\sql\\entitframwweork03.26\\entitframwweork03.26\\migrations\\20250326143643_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|solutionrelative:entitframwweork03.26\\migrations\\20250326143643_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|c:\\iliyan\\proggraming\\sql\\entitframwweork03.26\\entitframwweork03.26\\model\\thesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|solutionrelative:entitframwweork03.26\\model\\thesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|c:\\iliyan\\proggraming\\sql\\entitframwweork03.26\\entitframwweork03.26\\model\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9565B1-45B3-40DD-8F2D-85CA085590FE}|EntitFramwweork03.26\\EntitFramwweork03.26.csproj|solutionrelative:entitframwweork03.26\\model\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Migrations\\20250326142604_AddedDegreeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EntitFramwweork03.26\\Migrations\\20250326142604_AddedDegreeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 449,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250326143643_InitialMigration.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Migrations\\20250326143643_InitialMigration.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\Migrations\\20250326143643_InitialMigration.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Migrations\\20250326143643_InitialMigration.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\Migrations\\20250326143643_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:36:43.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250326142604_AddedDegreeTable.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Migrations\\20250326142604_AddedDegreeTable.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\Migrations\\20250326142604_AddedDegreeTable.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Migrations\\20250326142604_AddedDegreeTable.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\Migrations\\20250326142604_AddedDegreeTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:26:04.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Degree.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Model\\Degree.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\Model\\Degree.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Model\\Degree.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\Model\\Degree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:26:41.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Model\\Person.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\Model\\Person.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Model\\Person.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\Model\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:22:54.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Program.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\Program.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Program.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T10:47:37.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\data\\AppDbContext.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:22:19.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Thesis.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Model\\Thesis.cs",
+              "RelativeDocumentMoniker": "EntitFramwweork03.26\\Model\\Thesis.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\SQL\\EntitFramwweork03.26\\EntitFramwweork03.26\\Model\\Thesis.cs",
+              "RelativeToolTip": "EntitFramwweork03.26\\Model\\Thesis.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T10:58:38.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
