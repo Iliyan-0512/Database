@@ -14,5 +14,10 @@ namespace EntitFramwweork03._26.data
                 //.LogTo(Console.WriteLine,LogLevel.Information);
             
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
