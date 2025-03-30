@@ -8,15 +8,25 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string choose = Console.ReadLine();
-        int.TryParse(choose, out int number);
+        EnterNumberForMesseges();
+        int number;
+
         do
         {
-            choose=Console.ReadLine();
-        } while (!int.TryParse(choose, out number));
+           
+        } while (!int.TryParse(Console.ReadLine(), out number));
+        while (number != 0)
+        {
+            Menu(number);
+
+            do
+            {
+               
+            } while (!int.TryParse(Console.ReadLine(), out number));
+        }
 
 
-        Menu(5);
+
     }
     private static void CreateThesis()
     {
@@ -38,7 +48,7 @@ internal class Program
                 var thesis = new Thesis
                 {
                     Author = author,
-                    Supervistor = supervisor,
+                    Supervisor = supervisor,
                     Degree = degree,
                     Title = nameOfTitle
                 };
@@ -56,13 +66,7 @@ internal class Program
     }
     public static void Menu(int chose)
     {
-        Console.WriteLine("Enter number");
-        Console.WriteLine("1-Add people");
-        Console.WriteLine("2-Show how many people have in database");
-        Console.WriteLine("3-Show how many theses have in database");
-        Console.WriteLine("4-Create thesis");
-        Console.WriteLine("5-Show all thesis in database");
-
+        
 
         if (chose == 1)
         {
@@ -74,7 +78,7 @@ internal class Program
         }
         else if (chose == 3)
         {
-            Showtheses();
+            ShowTheses();
         }
         else if (chose == 4)
         {
@@ -84,19 +88,34 @@ internal class Program
         {
             ShowAllThesis();
         }
+        EnterNumberForMesseges();
 
-        static void Addpeople()
+
+
+    }
+
+    private static void EnterNumberForMesseges()
+    {
+        Console.WriteLine("Enter number");
+        Console.WriteLine("0-Exit");
+        Console.WriteLine("1-Add people");
+        Console.WriteLine("2-Show how many people have in database");
+        Console.WriteLine("3-Show how many theses have in database");
+        Console.WriteLine("4-Create thesis");
+        Console.WriteLine("5-Show all thesis in database");
+    }
+
+    private static void Addpeople()
+    {
+        using (var dbContex = new AppDbContext())
         {
-            using (var dbContex = new AppDbContext())
-            {
-                Console.Write("Enter person's name ");
-                string name = Console.ReadLine();
-                var author = new Person { Name = name };
+            Console.Write("Enter person's name ");
+            string name = Console.ReadLine();
+            var author = new Person { Name = name };
 
-                dbContex.People.Add(author);
-                dbContex.SaveChanges();
-                Console.WriteLine("Successful");
-            }
+            dbContex.People.Add(author);
+            dbContex.SaveChanges();
+            Console.WriteLine("Successful");
         }
     }
 
@@ -106,16 +125,16 @@ internal class Program
         {
             var theses = dbContex.Theses
                 .Include(t => t.Author)
-                .Include(t => t.Supervistor)
+                .Include(t => t.Supervisor)
                 .ToList();
             foreach (var t in theses)
             {
-                Console.WriteLine(($"{t.Title} - Author: {t.Author.Name}, Supervisor: {t.Supervistor.Name}"));
+                Console.WriteLine(($"{t.Title} - Author: {t.Author.Name}, Supervisor: {t.Supervisor.Name}"));
             }
 
         }
     }
-    private static void Showtheses()
+    private static void ShowTheses()
     {
         using (var dbContex = new AppDbContext())
         {

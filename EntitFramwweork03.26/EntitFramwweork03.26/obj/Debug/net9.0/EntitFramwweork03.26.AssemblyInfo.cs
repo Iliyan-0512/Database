@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntitFramwweork03.26")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c99aa3c2093203a292be319db0ca12a5305908a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e93e901cd01719917d8a9f3a5d9e35601236d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntitFramwweork03.26")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntitFramwweork03.26")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,7 +16,12 @@ namespace EntitFramwweork03._26.data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.Entity<Person>()
+               .HasIndex(p => p.Name)
+               .IsUnique();
+            modelBuilder.Entity<Person>()
+                .Property(p => p.Name)
+                .HasMaxLength(5);
             base.OnModelCreating(modelBuilder);
         }
     }

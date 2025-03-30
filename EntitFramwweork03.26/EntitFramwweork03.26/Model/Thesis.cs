@@ -13,7 +13,7 @@ namespace EntitFramwweork03._26.Model
         public Person Author { get; set; }
         public int SupervistorId { get; set; }
 
-        public Person Supervistor { get; set; }
+        public Person Supervisor { get; set; }
         public string Title { get; set; }
         public int DegreeId { get; set; }
         public Degree Degree { get; set; }
